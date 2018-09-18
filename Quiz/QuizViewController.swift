@@ -31,12 +31,12 @@ class QuizViewController: UIViewController {
         var tmpArray = [Any]()
         
         // tmpArrayに問題文、3つの選択肢、答えの番号が入った配列を追加していく
-        tmpArray.append(["問題文1","選択肢1","選択肢2","選択肢3",1])
-        tmpArray.append(["問題文2","選択肢1","選択肢2","選択肢3",2])
-        tmpArray.append(["問題文3","選択肢1","選択肢2","選択肢3",2])
-        tmpArray.append(["問題文4","選択肢1","選択肢2","選択肢3",3])
-        tmpArray.append(["問題文5","選択肢1","選択肢2","選択肢3",3])
-        tmpArray.append(["問題文6","選択肢1","選択肢2","選択肢3",3])
+        tmpArray.append(["Appleの2015年現在のCEOの名前は？","スティーブ・ジョブズ","ティム・クック","ジョナサンアイブ",2])
+        tmpArray.append(["iPhone6s,iPhone6s Plusから新たに導入された、画面タッチの指の圧力を検出する機能をなんという？","3Dタッチ","4Dタッチ","スーパータッチ",1])
+        tmpArray.append(["iPod touchのモデルのなかで最大容量のものは何GB？","64GB","128GB","160GB",2])
+        tmpArray.append(["1985年、Appleを追放されたジョブズが立ち上げた会社名の正式表記は？","NEXT,Inc","NExT,Inc","NeXT,Inc",3])
+        tmpArray.append(["2015年9月30日にリリースされたOSXの名前は？","El Captain","El Capitan","El Capital",2])
+        tmpArray.append(["Apple WatchはiPhoneとどんな通信方式でペアリングされる？","FM電波","Wi-Fi","Bluetooth",3])
         
         // 問題をシャッフルしてquizArrayに格納する
         while (tmpArray.count > 0) {
